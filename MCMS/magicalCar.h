@@ -10,6 +10,10 @@
 
 @interface magicalCar : NSObject
 
-@property (nonatomic) NSString*fullName;
+@property (nonatomic) NSString *fullName;
+@property (nonatomic)NSString *attribute;
+
+-(instancetype)initWithName: (NSString*)name attributes:(NSString*) attribute;
+
 
 @end

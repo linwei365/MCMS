@@ -13,15 +13,36 @@
 
 
 
+
+
 @end
 
+
+
 @implementation ViewController
+
+
+-(NSMutableArray *)cars{
+    
+    if (!_cars) {
+        _cars=[[NSMutableArray alloc]init];
+    }
+    
+    return _cars;
+    
+}
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
     
-    magicalCar * popCornOil= [magicalCar new];
+    magicalCar * popCornOil= [[magicalCar alloc]initWithName:@"PopCornOil" attributes:@""];
+    magicalCar * bumbleBee= [[magicalCar alloc]initWithName:@"BumbleBee" attributes:@""];
+    magicalCar * rocker= [[magicalCar alloc]initWithName:@"rocker" attributes:@""];
+    
+    
+    self.cars =[[NSMutableArray alloc]initWithObjects:popCornOil,bumbleBee,rocker ,nil];
     
     
     

@@ -10,4 +10,20 @@
 
 @implementation magicalCar
 
+
+-(instancetype)initWithName:(NSString *)name attributes:(NSString *)attribute{
+    
+    self =[super init];
+    
+    
+    if (self) {
+        self.fullName = name;
+        self.attribute =attribute;
+    }
+  
+    return self;
+    
+}
+
+
 @end

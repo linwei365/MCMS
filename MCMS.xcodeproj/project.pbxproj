@@ -15,6 +15,7 @@
 		656525FF1BC46A64004A6F8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 656525FD1BC46A64004A6F8B /* LaunchScreen.storyboard */; };
 		6565260A1BC46A64004A6F8B /* MCMSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 656526091BC46A64004A6F8B /* MCMSTests.m */; };
 		656526151BC46A64004A6F8B /* MCMSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 656526141BC46A64004A6F8B /* MCMSUITests.m */; };
+		656526241BC46A9B004A6F8B /* magicalCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 656526231BC46A9B004A6F8B /* magicalCar.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		656526101BC46A64004A6F8B /* MCMSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MCMSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		656526141BC46A64004A6F8B /* MCMSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCMSUITests.m; sourceTree = "<group>"; };
 		656526161BC46A64004A6F8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		656526221BC46A9B004A6F8B /* magicalCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = magicalCar.h; sourceTree = "<group>"; };
+		656526231BC46A9B004A6F8B /* magicalCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = magicalCar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,8 @@
 				656525F51BC46A64004A6F8B /* ViewController.h */,
 				656525F61BC46A64004A6F8B /* ViewController.m */,
 				656525F81BC46A64004A6F8B /* Main.storyboard */,
+				656526221BC46A9B004A6F8B /* magicalCar.h */,
+				656526231BC46A9B004A6F8B /* magicalCar.m */,
 				656525FB1BC46A64004A6F8B /* Assets.xcassets */,
 				656525FD1BC46A64004A6F8B /* LaunchScreen.storyboard */,
 				656526001BC46A64004A6F8B /* Info.plist */,
@@ -273,6 +278,7 @@
 				656525F71BC46A64004A6F8B /* ViewController.m in Sources */,
 				656525F41BC46A64004A6F8B /* AppDelegate.m in Sources */,
 				656525F11BC46A64004A6F8B /* main.m in Sources */,
+				656526241BC46A9B004A6F8B /* magicalCar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

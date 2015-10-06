@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
-
+#import "magicalCar.h"
 @interface ViewController ()
+@property (nonatomic)NSMutableArray* cars;
+
+
 
 @end
 
@@ -16,6 +19,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    
+    magicalCar * popCornOil= [magicalCar new];
+    
+    
+    
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 
